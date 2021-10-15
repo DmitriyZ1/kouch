@@ -19,18 +19,18 @@ function App() {
         <div className="line">
           <div className="line_contain container">
             <div className="line_left">
-              <a href="" className="line_phone">
+              <a href="/" className="line_phone">
                 <img src={wLogo} alt="whatsapp"/>
                 <span>+7(963) <strong>632-35-23</strong></span>
               </a>
-              <a href="" className="line_mail">
+              <a href="/" className="line_mail">
                 <img src={mLogo} alt="mail"/>
                 <span href=""><strong>atmocfera@mail.ru</strong></span>
               </a>
             </div>
             <div className="line_right">
-              <a href=""><img src={tLogo} alt="telegr"/></a>
-              <a href=""><img src={iLogo} alt="insta"/></a>
+              <a href="/"><img src={tLogo} alt="telegr"/></a>
+              <a href="/"><img src={iLogo} alt="insta"/></a>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ function App() {
           <div className="top_contain container">
             <div className="top_left">
               <div className="label">
-                <a href="">
+                <a href="/">
                   <img src={gerber} alt="lab" className="gerber" />
                   <img src={label} alt="lab" className="label_name"/>
                 </a>
